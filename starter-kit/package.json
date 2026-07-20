@@ -1,0 +1,24 @@
+{
+  "name": "@hellfire/mcp-starter-kit",
+  "version": "0.1.0",
+  "description": "Generic MCP server starter-kit for client CRM/internal-DB/API integrations — resolve/verify/profile chain, based on the HELLFIRE AI Solutions MCP Dev playbook.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
