@@ -1,9 +1,9 @@
 # HELLFIRE AI Solutions — AI MCP Dev
 
-Модуль 9. Використання наявного досвіду з MCP-серверів TETA+PI (resolve→verify→profile ланцюг), задокументованого як repeatable playbook.
+Module 9. Reuses TETA+PI's MCP-server experience (resolve→verify→profile chain), documented as a repeatable playbook.
 
-**Етап 1 — playbook: ✅ готово.** [`docs/playbook.md`](docs/playbook.md) — процес, чек-листи (bootstrap hardening, tool-adding, pre-launch QA gate) і реальні інциденти з продакшн MCP-сервера TETA+PI (`mcp.tetapi.dev`), а не гіпотетичні best practices.
+**Etap 1 — playbook: ✅ done.** [`docs/playbook.md`](docs/playbook.md) — process, checklists (bootstrap hardening, tool-adding, pre-launch QA gate), and real incidents from TETA+PI's production MCP server (`mcp.tetapi.dev`), not hypothetical best practices.
 
-**Етап 2 — starter-kit: ✅ готово.** [`starter-kit/`](starter-kit) — генерик MCP TypeScript сервер з hardened bootstrap (session-per-client transport, CORS, scoped routing, timeouts) і pluggable adapter-інтерфейсом (`resolve`/`verify`/`getProfile`) з прикладами під CRM, внутрішню базу та generic API. Деталі й "Adding an adapter" чек-лист: [`starter-kit/README.md`](starter-kit/README.md).
+**Etap 2 — starter-kit: ✅ done.** [`starter-kit/`](starter-kit) — a generic MCP TypeScript server with a hardened bootstrap (session-per-client transport, CORS, scoped routing, timeouts) and a pluggable adapter interface (`resolve`/`verify`/`getProfile`) with examples for CRM, an internal DB, and a generic API. Details and the "Adding an adapter" checklist: [`starter-kit/README.md`](starter-kit/README.md).
 
-**Ліцензія:** MIT.
+**License:** MIT.
